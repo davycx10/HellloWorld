@@ -1,4 +1,3 @@
-fn helloFrom(){
-    let str:name = "Roy";
-    return println!(name);
+pub fn helloFrom(name: &str) -> String{
+    format!("{} say Hello", name);
 }
